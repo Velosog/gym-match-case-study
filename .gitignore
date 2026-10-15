@@ -1,0 +1,21 @@
+# Environment files (this repository reads none; kept as a safety net)
+.env
+.env.*
+!.env.example
+
+# Secrets and keys
+*.pem
+*.key
+*.p12
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Local tooling output
+node_modules/
+*.log
